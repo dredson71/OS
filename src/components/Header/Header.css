@@ -1,0 +1,53 @@
+#Nav1{
+background-color: #191919;
+margin-left:-14em;
+width:1530px;
+}
+
+#logo,#navi{
+margin-top:1em;
+margin-bottom:1em;
+}
+#n1{
+margin-left:19em;
+
+color:white;
+}
+
+#n2,#n3,#n4,#n5 {
+margin-left:3em;
+color:white;
+}
+
+
+
+av.navbar, .navbar-default{
+
+    background-color: #ffffffff;
+    margin-bottom: -4.3em;
+}
+
+
+.navbar-default{
+      background-image:none;
+         border:none;
+         border-radius:0
+}
+
+.navbar-default .navbar-nav > li > a{
+    color: black;
+}
+.navbar-default .navbar-brand{
+    color: black;
+}
+
+.navbar-default .navbar-toggle{
+    border-color: black;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    border-color: black;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default{
+    border-color: yellow;
+}

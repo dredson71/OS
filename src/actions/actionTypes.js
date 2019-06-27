@@ -1,0 +1,9 @@
+export const VIEW_FOODS_LIST = 'VIEW_FOODS_LIST';
+export const CREATE_FOOD = 'CREATE_FOOD';
+export const CREATE_FOODATE='CREATE_FOODATE';
+export const VIEW_FOODS_FECHA='VIEW_FOODS_FECHA';
+export const VIEW_EXERCISE_LIST='VIEW_EXERCISE_LIST';
+export const CREATE_USER='CREATE_USER';
+export const VIEW_USER = 'VIEW_USER';
+export const DELETE_FOOD='DELETE_FOOD';
+

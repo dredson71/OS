@@ -1,0 +1,48 @@
+@keyframes cambio{
+    0%{margin-left:0;}
+    20%{margin-left:0;}
+    25%{margin-left:-100%;}
+    45%{margin-left:-100%;}
+    50%{margin-left:-200%;}
+    70%{margin-left:-200%;}
+    75%{margin-left:-300%;}
+    100%{margin-left:-300%;}
+
+}
+
+#slider{
+width:1500px;
+height:500px;
+margin-left:-12em;
+overflow:hidden;
+}
+
+
+
+#slider figure img{
+    width:20%;
+    float:left;
+}
+
+#slider figure{
+
+    position:relative;
+    width:500%;
+    margin:0;
+    Left:0;
+    text-align:left;
+    font-size:0;
+    animation:cambio 20s infinite alternate;
+
+}
+
+.jumbotron{
+    margin-bottom: 4em;
+}
+
+
+.profile-pic{
+width:50%;
+}
+
+
